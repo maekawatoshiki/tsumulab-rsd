@@ -185,6 +185,7 @@ MODULES = \
 	Memory/MemoryReadReqQueue.sv \
 	Memory/MemoryWriteDataQueue.sv \
 	Memory/MemoryLatencySimulator.sv \
+	Memory/Cam.sv \
 	$(CORE_MODULES) \
 
 # Specify files with module definitions that are used only for testing and not used for synthesis.
